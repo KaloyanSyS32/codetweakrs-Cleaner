@@ -1,0 +1,57 @@
+{
+  "GeneralTemp": [
+    "%TEMP%",
+    "%SystemRoot%\\Temp",
+    "%SystemRoot%\\ServiceProfiles\\LocalService\\AppData\\Local\\Temp",
+    "%SystemRoot%\\ServiceProfiles\\NetworkService\\AppData\\Local\\Temp"
+  ],
+  "LogsAndDiagnostics": [
+    "%SystemRoot%\\Logs",
+    "%SystemRoot%\\System32\\LogFiles",
+    "%ProgramData%\\Microsoft\\Diagnosis\\ETLLogs",
+    "%LocalAppData%\\CrashDumps",
+    "%ProgramData%\\Microsoft\\Windows\\WER\\ReportQueue",
+    "%ProgramData%\\Microsoft\\Windows\\WER\\ReportArchive",
+    "%SystemRoot%\\INF\\setupapi.dev.log",
+    "%SystemRoot%\\Panther"
+  ],
+  "WindowsUpdateCache": [
+    "%SystemRoot%\\SoftwareDistribution\\Download",
+    "%ProgramData%\\Microsoft\\Network\\Downloader",
+    "%ProgramData%\\USOPrivate\\UpdateStore"
+  ],
+  "Prefetch": [
+    "%SystemRoot%\\Prefetch",
+    "%SystemRoot%\\Prefetch\\ReadyBoot"
+  ],
+  "RecycleBin": [
+    "powershell:Clear-RecycleBin -Force"
+  ],
+  "ExplorerAndHistory": [
+    "%AppData%\\Microsoft\\Windows\\Recent",
+    "%AppData%\\Microsoft\\Windows\\Recent\\AutomaticDestinations",
+    "%AppData%\\Microsoft\\Windows\\Recent\\CustomDestinations",
+    "%LocalAppData%\\Microsoft\\Windows\\Explorer\\ThumbCache*.db",
+    "%LocalAppData%\\Microsoft\\Windows\\Explorer\\IconCache*.db"
+  ],
+  "BrowserCaches": [
+    "%LocalAppData%\\Microsoft\\Edge\\User Data\\Default\\Cache",
+    "%LocalAppData%\\Google\\Chrome\\User Data\\Default\\Cache",
+    "%AppData%\\Mozilla\\Firefox\\Profiles\\*\\cache2\\entries",
+    "%AppData%\\Opera Software\\Opera Stable\\Cache",
+    "%LocalAppData%\\Microsoft\\EdgeWebView\\User Data\\Default\\Cache"
+  ],
+  "MicrosoftStoreCache": [
+    "%LocalAppData%\\Microsoft\\Windows\\INetCache\\IE",
+    "%LocalAppData%\\Microsoft\\Windows\\WebCache"
+  ],
+  "OldSystemFiles": [
+    "%SystemDrive%\\Windows.old",
+    "%SystemDrive%\\$Windows.~BT"
+  ],
+  "UserLevelTemp": [
+    "%SystemDrive%\\Users\\*\\AppData\\Local\\Temp",
+    "%SystemDrive%\\Users\\*\\AppData\\LocalLow\\Temp",
+    "%SystemDrive%\\Users\\*\\AppData\\Local\\Microsoft\\Windows\\INetCache"
+  ]
+}
